@@ -1,0 +1,17 @@
+.carte-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Fixe à 4 colonnes */
+    gap: 20px;
+    /* Espace entre les cartes */
+    padding: 10%;
+}
+
+#mes-cartes {
+    width: 90%;
+    border-radius: 8px;
+
+
+
+}

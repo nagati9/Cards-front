@@ -1,0 +1,38 @@
+<div id="carte">
+
+    <div id="inside">
+        <header>
+            <div class="left">
+                <div id="nom"> {{monstre().nom}}</div>
+            </div>
+            <div class="right">
+                <div id="hp"> {{monstre().hp}} HP</div>
+                <img class="icone-pwr" src="energy.png" />
+            </div>
+        </header>
+
+        <figure id="art">
+            <img id="monstre" [src]="monstre().link" />
+            <figcaption>{{monstre().figureCaption}}</figcaption>
+        </figure>
+
+        <div id="capacities">
+            <div id="caracteristiques">
+                <div id="main">
+                    <div id="strength">
+                        <img class="icone-pwr" src="energy.png" />
+                        <img class="icone-pwr" src="energy.png" />
+                    </div>
+                    <div id="nom-attaque">Slay</div>
+                    <div id="impact">
+                        {{monstre().impact}}
+                    </div>
+                </div>
+            </div>
+
+            <div id="description">
+                {{monstre().description}}
+            </div>
+
+        </div>
+    </div>

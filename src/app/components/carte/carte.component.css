@@ -1,0 +1,98 @@
+#carte {
+    display: block;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0 gray;
+}
+
+#inside {
+    padding: 5px;
+    background-color: yellow;
+    height: 340px;
+}
+
+header {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.left,
+.right {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.icone-pwr {
+    width: 15px;
+    height: 15px;
+}
+
+.right {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.right #hp,
+.right img {
+    vertical-align: middle;
+}
+
+figure#art {
+    margin: 0;
+    padding: 5px 5px 0 5px;
+    background-color: lightgray;
+}
+
+#monstre {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+#capacities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+#caracteristiques {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+#nom-attaque {
+    flex-grow: 1;
+}
+
+#strength {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#description {
+    font-size: smaller;
+}
